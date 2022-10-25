@@ -64,7 +64,7 @@ header{
     text-decoration: none;
 }
 
-nav{
+.nav-header{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -73,7 +73,7 @@ nav{
     padding: 20px;
 }
 
-ul{
+.ul-header{
     display: flex;
     list-style-type: none;
     padding-left: 0px ;
@@ -82,13 +82,13 @@ ul{
     align-items: center;
 }
 
-li{ 
+.li-header{ 
     padding-top: 4px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 /*seconda parte*/
@@ -232,7 +232,7 @@ p{
     display: flex;
     align-items: center;
     justify-content:center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .row2{
@@ -246,6 +246,10 @@ p{
 }
 
 /*footer*/
+footer{
+    font-family:'Whitney', sans-serif; 
+}
+
 .col-main2{
     width: 40%;
     height: 400px;
@@ -255,37 +259,17 @@ p{
 .col-sm1{
     width: 30%;
     height: 400px;
-    background-color: rgb(72, 182, 158);
-    border-style: dashed;
-    border: 1px solid white;
+    text-align: left;
 }
 
 .background-black{
     background-color: rgb(44, 43, 43);
 }
 
-.lo{
-    color: black;
-    padding: 10px;
-    background-color: #ff7863;
-    font-size: 15px;
-    border-style: dashed;
-    display: flex;
-    align-items: center;
-}
-
-.lista{
-    background-color: rgb(105, 236, 190);
-    height: 40px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin: 1px;
-}
 
 .ita::after{
-        content: '\25BE';
-        color: white;
+    content: '\25BE';
+    color: white;
 }
 
 .ita{
@@ -301,8 +285,53 @@ h3{
     color: rgb(155, 157, 224);
     font-size: 28px;
     font-family:'Work Sans', sans-serif; 
+    padding-top: 20px;
 }
 
 h4{
-    
+    font-size: 11px;
+    font-family:'Work Sans', sans-serif; 
+    color: rgb(155, 157, 224);
+    align-items: center;
+    padding-top: 20px;
+}
+
+.li-footer{
+    color: white;
+    font-size: 11px;
+    list-style-type: none;
+    line-height: 2;
+}
+
+
+
+.lo{ 
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.button3{
+    color: white;
+    font-size: 10px;
+    background-color: rgb(155, 157, 224);
+    border-radius: 15px;
+    border: none;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+hr{
+    color: rgb(155, 157, 224);
+}
+
+.ul-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista{
+    padding: 20px 0 40px 0;
 }
