@@ -247,11 +247,9 @@ p{
 
 /*footer*/
 .col-main2{
-    width: 70%;
+    width: 40%;
     height: 400px;
-    background-color: rgb(252, 123, 87);
-    border-style: dashed;
-    border: 1px solid black;
+
 }
 
 .col-sm1{
@@ -283,4 +281,28 @@ p{
     display: flex;
     align-items: center;
     margin: 1px;
+}
+
+.ita::after{
+        content: '\25BE';
+        color: white;
+}
+
+.ita{
+    color: white;
+}
+
+.img-ita{
+    margin-top: 20px;
+    height: 10px;
+}
+
+h3{
+    color: rgb(155, 157, 224);
+    font-size: 28px;
+    font-family:'Work Sans', sans-serif; 
+}
+
+h4{
+    
 }
